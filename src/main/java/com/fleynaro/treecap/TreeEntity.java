@@ -122,7 +122,7 @@ public class TreeEntity {
             TreeEntity.trees.remove(block);
         }
         for ( Block block : this.leaves ) {
-            int[][] items = block.getDrops(new ItemBlock(new BlockAir(), 0, 0));
+            int[][] items = block.getDrops(new ItemBlock(new BlockAir()));
             for ( int i = 0; i < items.length; i ++ ) {
                 if ( items[i][0] == Item.SAPLING ) continue; //todo: remove it soon
                 this.level.dropItem(block.getLocation(), Item.get(items[i][0], items[i][1], items[i][2]));
