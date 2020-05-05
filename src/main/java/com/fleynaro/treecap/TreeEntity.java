@@ -13,8 +13,7 @@ import cn.nukkit.block.BlockLeaves;
 import cn.nukkit.block.BlockWood;
 import cn.nukkit.block.BlockWood2;
 import cn.nukkit.inventory.PlayerInventory;
-import cn.nukkit.item.Item;
-import cn.nukkit.item.ItemBlock;
+import cn.nukkit.item.*
 import cn.nukkit.level.Level;
 import cn.nukkit.math.BlockFace;
 import java.util.ArrayList;
